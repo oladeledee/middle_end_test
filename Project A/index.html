@@ -1,0 +1,107 @@
+<html>
+
+<head>
+    <script src="app.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script scr='http://ajax.aspnetcdn.com/ajax/jquery/jquery-3.2.1.js'></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<body style="font-family: 'Comfortaa', cursive;">
+    <div class="header">
+        <a href="#" class="logo">Royalty</a>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <p>i</p>
+
+            <button id="openBtn" class="openbtn" onfocus="openNav()">
+                OPTION
+            </button>
+            <label class="field a-field a-field_a3">
+                <input class="field__input a-field__input"   placeholder="1" id="QUANTITY" onclick="go()" onkeypress="go()" required>
+                <span class="a-field__label-wrap">
+                    <span class="a-field__label"   >QUANTITY</span>
+                </span>
+            </label>
+        </div>
+        <div id="mySidebar" class=" grid-item sidebar">
+            <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">x</a>
+            <div class="select-box" id="dropdown">
+                <div class="select-box__current" tabindex="1">
+                    <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked" />
+                        <p class="select-box__input-text">A</p>
+                    </div>
+                    <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="1" value="2" name="Ben" checked="checked" />
+                        <p class="select-box__input-text">B</p>
+                    </div>
+                    <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="2" value="3" name="Ben" checked="checked" />
+                        <p class="select-box__input-text">C</p>
+                    </div>
+                    <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="3" value="4" name="Ben" checked="checked" />
+                        <p class="select-box__input-text">D</p>
+                    </div>
+                    <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="4" value="5" name="Ben" checked="checked" />
+                        <p class="select-box__input-text">E</p>
+                    </div><img class="select-box__icon" src="https://cdn.onlinewebfonts.com/svg/img_295694.svg"
+                        alt="Arrow Icon" aria-hidden="true" />
+                </div>
+                <ul class="select-box__list">
+                    <li>
+                        <label class="select-box__option" for="0" aria-hidden="aria-hidden"  id="A">A</label>
+                    </li>
+                    <li>
+                        <label class="select-box__option" for="1" aria-hidden="aria-hidden">B</label>
+                    </li>
+                  
+                </ul>
+            </div>
+        </div>
+        <div id="main" class=" grid-item background_image">
+            <div id="overlay"></div>
+
+            <div class="align">
+                <ol class="oll">
+                    <li class="lii" id="A1">
+                        <div class="dot">
+                            <div class="position">1</div>
+                        </div>Item A1
+                    </li>
+                    <li class="lii">
+                        <div class="dot">
+                            <div class="position">2</div>
+                        </div>Item A2
+                    </li>
+                    <li class="lii" id="A3" >
+                        <div class="dot" >
+                            <div class="position"  id="A3.1">3</div>
+                        </div>Item A3
+                    </li>
+
+
+                    <div class="arrange">
+                        <a href="#"><img src="img/Left cheveron.png" alt=""></a>
+                        <div class="padding"></div>
+                        <a href="#"><img src="img/Right cheveron-2.png" alt=""></a>
+                    </div>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- <p>Author: Hege Refsnes<br> -->
+        <a href="#" style="text-decoration: none; color: rgb(177, 177, 177);">&copy Copyright 2020</a></p>
+    </footer>
+
+
+</body>
+
+</html>

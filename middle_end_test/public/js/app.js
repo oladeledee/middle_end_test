@@ -42,8 +42,7 @@ $(document).ready(function () {
       quantity = this.value;
       console.log(dropdown_value);
       if (quantity != "" && dropdown_value != "") {
-        alert(quantity);
-
+      
         for (i = 1; i < parseInt(quantity) + 1; i++) {
          let totalnum=$("ol").append(`<li class="lii" id="list-${i}">
                             <div div class="dot">
